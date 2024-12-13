@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://cdnjs.cloudflare.com 'sha256-0EZqoz+oBhx7gF4nvY2bSqoGyy4zLjNF+SDQXGp/ZrY='; script-src 'self' 'unsafe-inline' https://www.gstatic.com https://www.googleapis.com https://cdnjs.cloudflare.com;">
+
+
+    <title>Document</title>
+    <script type = "module" src = "signup.js" defer></script>
+    <script type="application/javascript" src = "signup.js"></script>
+    <script type="application/javascript" src = "firebaseauth.js"></script>
+</head>
+<body>
+    <label for="username">Username</label>
+    <input type = "email" placeholder = "email" id = "email" required>
+
+    <label for = "password">password</label>
+    <input type = "password" placeholder = "password" id="password" required>
+
+    <button id = "submit" type = "submit">Create Account</button>
+    <div class = "social">
+        <div class="go" id ="google"><></div>
+    </div>
+    <div class = "form">
+        <span> <a href ="/views/index.html">Sign up here</a></span>
+    </div>
+</body>
+</html>
